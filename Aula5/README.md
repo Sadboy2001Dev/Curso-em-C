@@ -7,24 +7,24 @@ Incluido a biblioteca <stdio.h> para entrada e saida de dados, estaremos apto pa
 **Comandos de entrada de dados**
 
 
-# scanf("<%formatador>", &<nome-da-variavel>);
+# scanf("%formatador", &nome-da-variavel);
         Usado para ler qualquer tipo de dados
 
 # gets(nome-da-variavel);
         Usado so e somente para leitura de string
 
 
-# getchar(nome-da-variavel);
+# nome-da-variavel = getchar();
         Usado so e somente para leitura de caratere
 
-# fgets(<nome-da-variavel>, <tamanho-da-variavel>, stdin);
+# fgets(nome-da-variavel, tamanho-da-variavel, stdin);
         Usado apenas pra captura de string, e é mais eficiente que o gets
 
 
 **Comandos de saida de dados**
 
 
-# printf("mensagem <%formatador>", <nome-da-variavel>);
+# printf("mensagem %formatador", nome-da-variavel);
         Muito usado para a mostrar a saida de dados
 
 # puts("mensagem");
